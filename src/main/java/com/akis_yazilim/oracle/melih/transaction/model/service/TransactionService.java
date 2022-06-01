@@ -48,8 +48,6 @@ public class TransactionService extends AbstractTransactionService
             Util.showExceptionInfo(e);
             return null;
         }
-
-
     }
 
     @Override
