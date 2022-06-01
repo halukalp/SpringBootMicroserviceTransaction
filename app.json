@@ -1,0 +1,10 @@
+{
+  "name": "microservice-transaction-haluk",
+
+  "buildpacks":
+   [
+     {
+       "url": "heroku/gradle"
+     }
+   ]
+}
