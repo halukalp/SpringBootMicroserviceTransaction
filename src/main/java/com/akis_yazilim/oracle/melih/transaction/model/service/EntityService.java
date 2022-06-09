@@ -9,6 +9,4 @@ public interface EntityService<E, I>
     E save(E entity);
 
     List<E> findAll();
-
-    E findByID(I id);
 }
