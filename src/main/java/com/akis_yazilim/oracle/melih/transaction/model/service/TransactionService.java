@@ -10,13 +10,12 @@ import java.util.List;
 @Service
 public class TransactionService extends AbstractTransactionService
 {
-    /*
+
     @Override
     public List<Transaction> findByUserID(Integer userID)
     {
         return transactionRepository.findByUserID(userID);
     }
-    */
 
     @Override
     public List<Transaction> findAll()
